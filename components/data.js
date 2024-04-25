@@ -11,50 +11,50 @@ import benefitOneImg from "../public/img/benefit-one.png";
 import benefitTwoImg from "../public/img/benefit-two.png";
 
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  title: "Highlight benefits",
+  desc: "Artificio Network tackles challenges with a comprehensive platform, simplifying the complexities of the Web3 world for users.",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
-      icon: <FaceSmileIcon />,
+      title: "Operation with One-Click Chart Generation",
+      desc: "Allow users to generate insightful charts and visualizations with few clicks, facilitating easy analysis and decision-making",
+      icon: <DevicePhoneMobileIcon />,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
-      icon: <ChartBarSquareIcon />,
+      title: "Smart Contract Analysis with ML/DL",
+      desc: "Utilize advanced AI algorithms to analyze smart contracts for security vulnerabilities, efficiency, and compliance with industry standards.",
+      icon: <AdjustmentsHorizontalIcon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
-      icon: <CursorArrowRaysIcon />,
+      title: "Cross-Chain Compatibility",
+      desc: "Ensure compatibility with multiple blockchains and Web3 protocols, allowing users to access and analyze data from various sources.",
+      icon: <SunIcon />,
     },
   ],
 };
 
 const benefitTwo = {
   title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+  desc: "Truly reducing cognitive costs, providing clearer results at a glance, allowing decentralized models to have a greater variety of projects.",
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
-      icon: <DevicePhoneMobileIcon />,
+      title: "Predictive Analytics ",
+      desc: "Leverage AI-powered predictive analytics to forecast trends and developments within the Web3 ecosystem, enabling users to make informed investment and strategic decisions.",
+      icon: <FaceSmileIcon />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
-      icon: <AdjustmentsHorizontalIcon />,
+      title: "Real-Time Data Insights Dashboard",
+      desc: "Provide users with a comprehensive dashboard offering real-time insights and analytics on blockchain data, smart contracts, and market trends.",
+      icon: <ChartBarSquareIcon />,
     },
     {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
-      icon: <SunIcon />,
+      title: "Streamlined data visualization",
+      desc: "Streamlined visualization tools for meaningful insights and efficient navigation for data management",
+      icon: <CursorArrowRaysIcon />,
     },
   ],
 };
 
 
-export {benefitOne, benefitTwo};
+export { benefitOne, benefitTwo };
